@@ -29,6 +29,18 @@ body {
     margin: 20px auto;
     }
 
+    table {
+  border: 2px solid #2E2E2E;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #2E2E2E;
+  padding: 8px;
+  text-align: left;
+}
+
 /* Адаптивность для мобильных устройств */
 @media screen and (max-width: 600px) {
   .navbar a {
