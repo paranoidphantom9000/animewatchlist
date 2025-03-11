@@ -1,0 +1,39 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: #2E2E2E;
+
+    background-image: url("1.jpg"); /* Путь к картинке */
+    background-size: cover; /* Заполняет весь экран */
+    background-position: center; /* Центрирует изображение */
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
+    background-repeat: no-repeat; /* Убирает повторения */
+    }
+
+    a {
+    color: #B22222; /* Цвет всех ссылок (зелёный) */
+    }
+
+    h1 {
+        font-family: "BIZ UDPGothic";
+    }
+
+    .content {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    } 
+
+    .content img {
+    display: block;
+    margin: 0 auto;
+    margin: 20px auto;
+    }
+
+/* Адаптивность для мобильных устройств */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    width: 100%;
+    text-align: center;
+    padding-left: 20px; /* Отступ слева для мобильных */
+  }
+}
