@@ -2,7 +2,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     color: #2E2E2E;
 
-    background-image: url("https://ibb.co/VcxqRrkS"); /* Путь к картинке */
+    background-image: url("1.jpg"); /* Путь к картинке */
     background-size: cover; /* Заполняет весь экран */
     background-position: center; /* Центрирует изображение */
     background-attachment: fixed; /* Фиксирует фон при прокрутке */
